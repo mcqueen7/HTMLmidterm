@@ -103,7 +103,6 @@ body{
 .mid_container{
     width: 1280px;
     height: 543px;
-   
 
 }
 .hots_line{
@@ -113,6 +112,7 @@ body{
     margin: auto;
     margin-bottom: 50px;
 }
+
 .hots_title{
     padding: 0; 
     margin-top:60px;

@@ -142,7 +142,7 @@ body{
     border: solid rgba(192, 37, 231, 0.705) 5px;
     background-color: rgb(255, 255, 255);
     position: sticky;
-    top:130px;
+    top:140px;
     
   
 }
@@ -169,7 +169,19 @@ body{
 .toclevel{
     list-style: none;
     font-family: Arial;
-    font-size: 24px;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: start;
+    color: #000000;
+}
+.toclevel-1{
+    list-style: none;
+    font-family: Arial;
+    font-size: 18px;
     line-height: 30px;
     font-weight: normal;
     font-stretch: normal;
