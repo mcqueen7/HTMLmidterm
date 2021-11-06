@@ -135,10 +135,10 @@ body{
     margin-left:40px ;
     margin-right: 60px;
     border: solid rgba(192, 37, 231, 0.705) 5px;
-    background-color: rgba(228, 121, 238, 0.082);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     top:15%;
-   
+  
 }
 .aside_bar_fake{
     width: 260px;
