@@ -124,6 +124,10 @@ body{
     text-align: center;
     color: #000000;
 }
+.forasidebar{
+    display: flex;
+
+}
 .content_container{
     display: flex;
     flex-wrap: wrap;
@@ -136,8 +140,9 @@ body{
     margin-right: 60px;
     border: solid rgba(192, 37, 231, 0.705) 5px;
     background-color: rgb(255, 255, 255);
-    position: fixed;
-    top:15%;
+    position: sticky;
+    top:130px;
+    
   
 }
 .aside_bar_fake{
@@ -145,9 +150,9 @@ body{
     height: 800px;
     margin-left:40px ;
     margin-right: 60px;
-    /* border: solid rgba(192, 37, 231, 0.705) 5px; */
-    /* background-color: rgba(228, 121, 238, 0.082); */
-  
+    border: solid rgba(192, 37, 231, 0.705) 5px;
+    background-color: rgba(228, 121, 238, 0.082);
+    position: sticky;
 }
 .toc_title{
     font-family: Arial;
