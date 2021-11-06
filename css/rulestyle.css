@@ -126,6 +126,7 @@ body{
 }
 .forasidebar{
     display: flex;
+    height: 3320px;
 
 }
 .content_container{
@@ -135,7 +136,7 @@ body{
 }
 .aside_bar{
     width: 260px;
-    height: 750px;
+    height: 620px;
     margin-left:40px ;
     margin-right: 60px;
     border: solid rgba(192, 37, 231, 0.705) 5px;
@@ -145,7 +146,7 @@ body{
     
   
 }
-.aside_bar_fake{
+/* .aside_bar_fake{
     width: 260px;
     height: 800px;
     margin-left:40px ;
@@ -153,11 +154,11 @@ body{
     border: solid rgba(192, 37, 231, 0.705) 5px;
     background-color: rgba(228, 121, 238, 0.082);
     position: sticky;
-}
+} */
 .toc_title{
     font-family: Arial;
     font-size: 32px;
-    line-height: 20px;
+    line-height: 1px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -169,7 +170,7 @@ body{
     list-style: none;
     font-family: Arial;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 30px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
