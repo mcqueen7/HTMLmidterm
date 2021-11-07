@@ -151,7 +151,7 @@ body{
     border: solid rgba(192, 37, 231, 0.705) 5px;
     background-color: rgb(255, 255, 255);
     position: sticky;
-    top:200px;
+    top:140px;
     
   
 }
@@ -190,6 +190,18 @@ body{
     text-align: start;
     color: #000000;
 }
+.toclevel>a:link{
+    color: #000000;
+}
+.toclevel>a:visited{
+    color: rgba(92, 45, 156, 1);
+}
+.toclevel>a:hover{
+    font-weight: bold;
+}
+.toclevel>a:active{
+    color: rgba(192, 37, 231, 0.705);
+}
 .toclevel-1{
     list-style: none;
     font-family: Arial;
@@ -202,6 +214,19 @@ body{
     text-align: start;
     color: #000000;
 }
+.toclevel-1>a:link{
+    color: #000000;
+}
+.toclevel-1>a:visited{
+    color: rgba(92, 45, 156, 1);
+}
+.toclevel-1>a:hover{
+    font-weight: bold;
+}
+.toclevel-1>a:active{
+    color: rgba(192, 37, 231, 0.705);
+}
+
 .article_container{
     width: 860px;
 }

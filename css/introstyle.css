@@ -10,7 +10,7 @@ body{
 .bg{
     background-color: rgba(228, 121, 238, 0.082);
     width: 1280px;
-    height: auto;
+    height: 2000px;
     padding: 0px 0px;
     margin-left: auto;
     margin-right: auto;
@@ -140,16 +140,27 @@ body{
 .origin_article_container{
     padding:20px 10px;
 }
-.article{
-    margin:10px;
+.article_left{
+   
+    text-align: start;
+    font-family: Arial;
+    font-size: 25px;
+    line-height:38px;
+    margin-right: 40px;
+}
+
+.article_right{
+   
     text-align: start;
     font-family: Arial;
     font-size: 25px;
     line-height:40px;
+    margin-left: 40px;
 
 }
 .origin_picture{
-    margin-top: 40px;
+    margin-top: 20px;
+   
     
 }
 
