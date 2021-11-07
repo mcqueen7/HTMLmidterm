@@ -285,6 +285,7 @@ body{
     background-color: rgba(92, 45, 156, 1);
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px 10px 0 0;
 }   
 .school_icon{
     margin-left: 50px;

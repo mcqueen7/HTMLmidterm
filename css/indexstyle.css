@@ -143,6 +143,7 @@ body{
     display: flex;
     align-content: flex-end;
     justify-content: space-around;
+    
 }
 .mid_box{
     width:327px;
@@ -151,7 +152,23 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     border: 1px solid;
-    border-color: rgba(192, 37, 231, 0.705);;
+    border-color: rgba(192, 37, 231, 0.705);
+
+}
+.mid_box>a:link{
+    color: #000000;
+
+}
+.mid_box>a:visited{
+    color: #000000;
+
+}
+.mid_box>a>p:hover{
+    font-weight: bold;
+
+}
+.mid_box>a:active{
+    color: rgba(192, 37, 231, 0.705);
 
 }
 .midbox_img{
@@ -237,6 +254,22 @@ body{
     justify-content: center;
     border: 1px solid;
     border-color: rgba(192, 37, 231, 0.705);
+
+}
+.bottom_box>a:link{
+    color: #000000;
+
+}
+.bottom_box>a:visited{
+    color: #000000;
+
+}
+.bottom_box>a>p:hover{
+    font-weight: bold;
+
+}
+.bottom_box>a:active{
+    color: rgba(192, 37, 231, 0.705);
 
 }
 .bottombox_img{
