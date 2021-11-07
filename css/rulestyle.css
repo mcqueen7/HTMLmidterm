@@ -10,7 +10,7 @@ body{
 .bg{
     background-color: rgba(228, 121, 238, 0.082);
     width: 1280px;
-    height: 3830px;
+    height: auto;
     padding: 0px 0px;
     margin-left: auto;
     margin-right: auto;
@@ -18,12 +18,12 @@ body{
 }
 .header{
     
-    height:400px;
+    height:130px;
     width: auto;
 
 }
 .title_container{
-    margin-top: -130px;
+    /* margin-top: -130px; */
     display: flex;
     height: 130px;
     width: 1280px;
@@ -31,6 +31,8 @@ body{
     justify-content: space-between;
     background-color: rgba(92, 45, 156, 1);
     position:fixed;
+    border-radius: 80px 30px;
+    flex-wrap: wrap;
 }
 
 .main_title{
@@ -54,14 +56,14 @@ body{
 .nav_box{  
    
     height: 130px;
-    width: 600px;
+    width: 620px;
     margin-right: 20px;
     }
 .nav_list{
     margin:0;
     padding: 0; 
     display: flex;
-   justify-content: space-around;
+   /* justify-content: space-around; */
    align-content: space-around;
 
     }
@@ -69,7 +71,11 @@ body{
     list-style: none;
     /* margin: 10px 0px 0px 0px; */
 }
-
+.nav_item:hover{
+    background-color: rgba(192, 37, 231, 0.705);
+    
+    /* margin: 10px 0px 0px 0px; */
+}
 .nav_link{
     font-family: Arial;
     font-size: 25px;
@@ -79,7 +85,7 @@ body{
     text-align:center;
     line-height:130px;
     color:#ffffff;
-    /* margin-right: 30px; */
+    margin: 0 15px;
     text-decoration:none
    
 }  
@@ -93,16 +99,19 @@ body{
     line-height:130px;
     color:#ffffff;
     /* margin-right: 30px; */
-   
+    margin: 0 15px;
 }  
 .main_picture{
-    margin-top: 130px;
+    /* margin-top: 130px; */
     margin-bottom: 50px;
     width: 1280px;
     height:350px;
     overflow: hidden;
     
 }
+
+
+
 .content_title_line{
     height: 5px;
     width: 440px;
@@ -126,7 +135,7 @@ body{
 }
 .forasidebar{
     display: flex;
-    height: 3320px;
+    height: 2850px;
 
 }
 .content_container{
@@ -142,9 +151,12 @@ body{
     border: solid rgba(192, 37, 231, 0.705) 5px;
     background-color: rgb(255, 255, 255);
     position: sticky;
-    top:140px;
+    top:200px;
     
   
+}
+.toc_list{
+    padding-left: 26px;
 }
 /* .aside_bar_fake{
     width: 260px;
@@ -157,9 +169,9 @@ body{
 } */
 .toc_title{
     font-family: Arial;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 1px;
-    font-weight: normal;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
@@ -169,7 +181,7 @@ body{
 .toclevel{
     list-style: none;
     font-family: Arial;
-    font-size: 26px;
+    font-size: 28px;
     line-height: 30px;
     font-weight: normal;
     font-stretch: normal;
@@ -181,7 +193,7 @@ body{
 .toclevel-1{
     list-style: none;
     font-family: Arial;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: normal;
     font-stretch: normal;
@@ -191,7 +203,7 @@ body{
     color: #000000;
 }
 .article_container{
-    width: 850px;
+    width: 860px;
 }
 .mid_title{
     list-style: none;
@@ -225,7 +237,7 @@ body{
 .article{
     list-style: none;
     font-family: Arial;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: normal;
     font-stretch: normal;
@@ -233,7 +245,7 @@ body{
     letter-spacing: normal;
     text-align: start;
     color: #000000;
-    padding-right: 10px;
+    padding-right: 0px;
 
 }
 
@@ -243,15 +255,21 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 1280px;
-    height: 110px;
+    height: 100px;
     padding: 20px 0px;
-    background-color: rgba(192, 37, 231, 0.705);
+    background-color: rgba(92, 45, 156, 1);
     margin-left: auto;
     margin-right: auto;
 }   
-.logo_picture_bottom{
-    justify-self: flex-end;
+.school_icon{
     margin-left: 50px;
+}
+.logo_picture_bottom{
+    /* justify-self: flex-end; */
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-right: 200px;
+    
 }
 .footer_content{
     justify-self: flex-end;
@@ -266,11 +284,13 @@ body{
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
+    
 }
 .icon{
     padding-top: 40px;
     display: flex;
     justify-content: space-around;
     width: 150px;
+    margin-right: 50px;
 
 }
