@@ -9,4 +9,19 @@ $(function() {
     animationSpeed: 500, //滚动时间ms
     touch: true //是否支持触屏滑动
   });
+  $("#gototop").click(function() {
+    $('html,body').animate({ scrollTop: 0 }, 'slow');
+    return false;
+  });
 }); 
+
+
+window.onscroll = function() {
+var scrollTop = $(document).scrollTop();
+if (scrollTop > 20) {
+     $("#gototop").fadeIn();
+} else {
+    $("#gototop").fadeOut();
+};
+
+};
