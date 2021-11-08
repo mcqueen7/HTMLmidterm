@@ -194,7 +194,7 @@ body{
 .hots_more{
     height: fit-content;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 60px;
     padding-top: 10px;
     
@@ -295,7 +295,7 @@ body{
 .news_more{
     height: fit-content;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 60px;
     padding-top: 10px;
  
