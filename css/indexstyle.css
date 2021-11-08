@@ -153,6 +153,8 @@ body{
     justify-content: center;
     border: 1px solid;
     border-color: rgba(192, 37, 231, 0.705);
+    border-radius: 20px;
+    overflow: hidden;
 
 }
 .mid_box>a:link{
@@ -174,6 +176,7 @@ body{
 .midbox_img{
     max-width: 327px;
     max-height: 191px;
+    
 }
 .mid_article{
     padding: 20px 20px;
@@ -254,6 +257,8 @@ body{
     justify-content: center;
     border: 1px solid;
     border-color: rgba(192, 37, 231, 0.705);
+    border-radius: 20px;
+    overflow: hidden;
 
 }
 .bottom_box>a:link{
@@ -312,6 +317,7 @@ body{
     background-color: rgba(92, 45, 156, 1);
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px 20px 0 0;
 }   
 .school_icon{
     margin-left: 50px;
