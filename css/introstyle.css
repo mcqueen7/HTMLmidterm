@@ -10,7 +10,7 @@ body{
 .bg{
     background-color: rgba(228, 121, 238, 0.082);
     width: 1280px;
-    height: 2000px;
+    height: 2200px;
     padding: 0px 0px;
     margin-left: auto;
     margin-right: auto;
@@ -102,7 +102,7 @@ body{
 .content_container{
     
     width: 1200px;
-    height: 1700px;
+    height: 1900px;
     margin: auto;
     margin-bottom: 40px;
     border: solid violet;
@@ -113,8 +113,8 @@ body{
     margin-bottom: 20px;
     margin-left: 60px;
     font-family: Arial;
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 48px;
+    line-height: 48px;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
@@ -144,7 +144,7 @@ body{
    
     text-align: start;
     font-family: Arial;
-    font-size: 25px;
+    font-size: 28px;
     line-height:38px;
     margin-right: 40px;
 }
@@ -153,13 +153,14 @@ body{
    
     text-align: start;
     font-family: Arial;
-    font-size: 25px;
-    line-height:40px;
+    font-size: 28px;
+    line-height:38px;
     margin-left: 40px;
 
 }
 .origin_picture{
-    margin-top: 20px;
+   display: flex;
+   align-self: center;
    
     
 }
@@ -171,8 +172,8 @@ body{
     margin-bottom: 20px;
     margin-right: 60px;
     font-family: Arial;
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 48px;
+    line-height: 48px;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
@@ -191,16 +192,17 @@ body{
 .midtremcup_container{
     float:left;
     margin-right: 0px;
-    height: 510px;
+    height: 610px;
     width: auto;
    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 20px 40px;
+    padding: 10px 40px;
 }
 .midtremcup_picture{
-    margin-top: 40px;
+    display: flex;
+    align-items: center;
     
 }
 .midtremcup_article_container{
@@ -216,8 +218,8 @@ body{
     margin-bottom: 20px;
     margin-left: 60px;
     font-family: Arial;
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 48px;
+    line-height: 48px;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
@@ -244,7 +246,8 @@ body{
     padding:20px 10px;
 }
 .future_picture{
-    margin-top: 40px;
+    display: flex;
+    align-self: center;
     
 }
 

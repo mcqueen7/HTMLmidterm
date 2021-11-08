@@ -123,10 +123,10 @@ body{
     padding: 0; 
     margin-top:3px;
     margin-bottom: 10px;
-    height: 42px;
+    height: 48px;
     font-family: Arial;
     font-size: 48px;
-    line-height: 42px;
+    line-height: 48px;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
@@ -233,8 +233,8 @@ body{
 .mid_title{
     list-style: none;
     font-family: Arial;
-    font-size: 44px;
-    line-height: 44px;
+    font-size: 48px;
+    line-height: 48px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
